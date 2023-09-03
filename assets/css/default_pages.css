@@ -1,0 +1,197 @@
+/* Estilização geral*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #cd7108;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Abaixo está toda a estilização do cabeçalho. */
+
+header {
+  background-color: #ff6900;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.main_header {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+
+.header_logo img {
+  width: 400px;
+  height: 65px;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+}
+
+nav a {
+  padding: 15px;
+  margin: 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bolder;
+  color: white;
+}
+
+nav .active a,
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Acima está toda a estilização do cabeçalho. */
+
+/* Abaixo está toda a estilização princpal da pagina. */
+
+.main_container {
+  background-color: white;
+  height: auto;
+  width: 1200px;
+}
+
+.link_nav {
+  font-size: small;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.main_article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.main_article img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.title_image {
+  display: flex;
+  justify-content: center;
+}
+
+.title_image img {
+  object-fit: cover;
+  width: 80%;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.author {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+/* Acima está toda a estilização princpal da pagina. */
+
+/* Abaixo está toda a estilização do footer */
+
+.footer_intersection {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_container {
+  color: #ffffff;
+  width: 1200px;
+  height: 250px;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.site_description {
+  padding-right: 150px;
+}
+.footer_menu {
+  display: flex;
+  margin-top: 25px;
+}
+
+.footer_title {
+  color: #ff9000;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.footer_bar {
+  margin: 5px 0 15px 0;
+  width: 300px;
+  height: 3px;
+  background-color: #ff9000;
+}
+
+.footer_text {
+  color: #9c9c9c;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.footer_credits {
+  margin-top: 40px;
+  text-align: center;
+  font-size: smaller;
+}
+
+.copyright {
+  color: #9c9c9c;
+}
+.reference {
+  color: #9c9c9c;
+  font-style: italic;
+}
+
+/* Acima está toda a estilização do footer */
