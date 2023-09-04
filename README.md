@@ -1,6 +1,11 @@
 
 <h1><a href="https://sidneyfrancadev.github.io/portal-geek/">Portal Geek</a></h1>
-<p>Portal de notícias e reviews do universo geek. Desenvolvido durante o curso do PROA</p>
+<p>Portal de notícias e reviews do universo geek. Desenvolvido como parte de uma atividade durante o curso do Proa</p>
 <hr>
 
-![image](https://github.com/SidneyFrancaDEV/portal-geek/assets/142261721/22983267-54e6-415e-aa96-80cca1beeedf)
+![image](https://github.com/SidneyFrancaDEV/portal-geek/assets/142261721/a2421f7c-c3ce-4b22-9490-20ca1ce278a8)
+![image](https://github.com/SidneyFrancaDEV/portal-geek/assets/142261721/c5c5da91-948b-4a25-a51d-52dec27ccd49)
+![image](https://github.com/SidneyFrancaDEV/portal-geek/assets/142261721/113eede8-7a7e-4553-baca-83666a9a25f1)
+
+
+
